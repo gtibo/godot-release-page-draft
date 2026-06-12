@@ -622,7 +622,6 @@ accessibility_region:
   title: "Landmark navigation for enhanced accessibility"
   subtitle: "You are here. 👇"
   text: |
-    A new feature has been introduced in order to make the engine more accessible.
 
     The focused element of a user interface can frequently move in arbitrary ways. While we introduced screen reader support in 4.5, it lacked the ability to give context in some cases. While a line input could be set to describe a “name” field, it doesn’t help if you don’t know what it named.
 
