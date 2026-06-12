@@ -266,7 +266,6 @@ draft: true
             <h4 class="sub-section">Rendering</h4>
 
             <!-- Rendering Cards -->
-
             
             {% include_relative _components/card.html name="particles3d_scale_and_rotation" size="medium" order="reverse"%}
             
@@ -274,6 +273,17 @@ draft: true
                 {% include_relative _components/card.html name="clearcoat_update" order="reverse" %}
     
                 {% include_relative _components/card.html name="pass_unique_buffer" %}
+            </div>
+
+            <h4 class="sub-section">XR</h4>
+
+            <!-- XR Cards -->
+
+            {% include_relative _components/card.html name="action_map_improvements" size="medium" %}
+
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="vulkan_subsampled_images" %}
+                {% include_relative _components/card.html name="composition_layer_improvements" %}
             </div>
 
         </section>
