@@ -1,8 +1,8 @@
-# Godot Release Page 
+# Godot Release Page Draft
 
 ### Preview
 
-The current build is [available here](https://gtibo.github.io/godot-4.6-release-page/) 
+View the [current build](https://gtibo.github.io/godot-release-page-draft/).
 
 ### Todo
 
