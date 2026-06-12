@@ -27,10 +27,10 @@ hdr_support:
     before_text: SDR
     after_text: HDR
 drawable_textures:
-  title: "Drawing on a texture never been this much easy"
+  title: "Drawing on a texture never been this easy"
   subtitle: "There are no mistakes here, only happy accidents."
   text: |
-    After a long wait, we’re excited to share that it’s possible to easily draw on a texture! 
+    After a long wait, we’re excited to share that it’s now possible to easily draw on a texture! 
 
     Previously, there were some hacky solutions through using the Viewpoint, but it was limited and costly to handle more complex tasks. For those who were comfortable dissecting and getting into the guts of the engine, RenderingDevice allowed for an even more complex solution. 
 
@@ -44,12 +44,12 @@ drawable_textures:
     link: "https://github.com/ColinSORourke"
   media: "drawable_textures.webm"
 asset_store_update:
-  title: "Exit the Asset Library, Enter the Asset Store"
+  title: "Exit the Asset Library, enter the Asset Store"
   subtitle: "Got a selection of good things, stranger!"
   text: |
     The Asset Library has been due for a refresh for a while, and with the new Asset Store and API approaching on the horizon, this was the perfect opportunity to give it some extra care and attention.
 
-    The new update adds some changes to make browsing assets easier and more enjoyable! We’ve polished how asset items are displayed and now you can even zoom asset preview images. But, maybe that doesn’t catch your eye, what if we were to tell you, you can now see the asset ratings. Were you lost in a field of endless assets? Unsure how to navigate among the field of tall assets? Well, look no further, now from right within the store.
+    The new update adds some changes to make browsing assets easier and more enjoyable! We’ve polished how asset items are displayed and now you can even zoom asset preview images. But, maybe that doesn’t catch your eye; what if we were to tell you, you can now see the asset ratings. Were you lost in a field of endless assets? Unsure how to navigate among the field of tall assets? Well, look no further, now from right within the store.
 
     Behind the scenes, we have also introduced threading. This means the Asset Store can perform certain tasks in the background without blocking the editor’s main user interface. That’s pretty cool. Now while you’re exploring your field, of more organized than before, assets, you’ll also know there’s someone paving a path and clearing brush quietly in the background, making it that much easier for you to get the lay of the land.
 
@@ -63,7 +63,7 @@ shader_previews:
   title: "Inline previews of text-based shader operations"
   subtitle: "I don’t even see the code. All I see is fresnel, albedo, occlusion."
   text: |
-    We’ll keep going with this field imagery. Imagine you’re in a field. In the far distance, you see a lone developer, hunched over their laptop, you intuitively yell through the tall grass, “`VEC2 V4 = UV;`”!! The developer victoriously pumps their hand in the air, but in your heart you know you’ll need to see the results yourself. You tread through the field, and at last, you arrive, gasping for air, you look over the lone developer’s shoulder to witness your creation. 
+    We’ll keep going with this field imagery. Imagine you’re in a field. In the far distance, you see a lone developer, hunched over their laptop. You intuitively yell through the tall grass, “`VEC2 V4 = UV;`”!! The developer victoriously pumps their hand in the air, but in your heart you know you’ll need to see the results yourself. You tread through the field, and at last, gasping for air, you look over the lone developer’s shoulder to witness your creation. 
 
     With inline text shader previews, the treacherous journey is over. 
 
@@ -154,7 +154,7 @@ tween_await:
   title: "Tweens can now wait for signals"
   subtitle: "Stop… _signal time!_"
   text: |
-    Tweens have always been difficult to work with at scale, especially when dealing with time based events or events that rely on external factors. With the new [`Tween.tween_await()`](https://docs.godotengine.org/en/4.7/classes/class_tween.html#class-tween-method-tween-await) method, it’s now a thing of the past.
+    Tweens have always been difficult to work with at scale, especially when dealing with time based events or events that rely on external factors. With the new [`Tween.tween_await()`](https://docs.godotengine.org/en/4.7/classes/class_tween.html#class-tween-method-tween-await) method, this is now a thing of the past.
 
     It is now possible to pause a tween until a specific signal is triggered. This can be especially helpful when designing dialogue and cutscenes.
   read_more: "https://github.com/godotengine/godot/pull/79712"
@@ -169,7 +169,7 @@ virtual_joystick:
   title: "Built-in virtual joystick"
   subtitle: "Break in case of emergency."
   text: |
-    Virtual joysticks are a staple of mobile gaming. From twin-stick shooters to 3D platformers, they’re featured in a large number of mobile games. However, in Godot, developers had to create their own virtual joystick system, or use an add-on that implements one.
+    Virtual joysticks are a staple of touchscreen gaming. From twin-stick shooters to 3D platformers, they’re featured in a large number of mobile games. However, in Godot, developers had to create their own virtual joystick system, or use an add-on that implements one.
 
     This is no longer needed as Godot now provides its own VirtualJoystick node, complete with 3 operation modes: fixed, dynamic, following. Coupled with built-in theming abilities, this greatly speeds up the mobile development process.
   read_more: "https://github.com/godotengine/godot/pull/110933"
@@ -260,7 +260,7 @@ remote_scene_inspector_groups_folding:
   title: "Fold groups and subgroups in the Remote Scene Inspector"
   subtitle: "Quick! Hide!"
   text: |
-    Previously, it was possible to fold property groups and subgroups in the local inspector, but not in the remote inspector. This owes to the fact that the remote inspector is a separate implementation from the local inspector.
+    Previously, it was possible to fold property groups and subgroups in the local inspector, but not in the remote inspector. This was due to the fact that the remote inspector is a separate implementation from the local inspector.
 
     Support for folding groups and subgroups in the remote scene inspector has been implemented. Both local and remote inspectors now support folding property groups the same way, which makes for a more seamless, consistent UX.
   read_more: "https://github.com/godotengine/godot/pull/117357"
@@ -277,7 +277,7 @@ gdextensions_view_inside_settings:
   text: |
     Since their introduction and by their nature, GDExtensions are automatically loaded by the engine on initialization. There was unfortunately no way to know exactly which project extensions were actually present in a project, except by manually locating the project’s `.gdextension` files.
 
-    With this new feature, the project settings window has a section about the detected GDExtensions.
+    With this new feature, the project settings window has a section for the detected GDExtensions.
   read_more: "https://github.com/godotengine/godot/pull/118063"
   contributors:
     - name: "Aaron Franke"
@@ -292,7 +292,7 @@ ruler_3d_components:
   text: |
     The 3D editor’s ruler tool can now display lengths for each axis. This makes it easier to measure multiple lengths in one go, such as measuring the size of a rectangular region in the 3D world.
 
-    To make use of this feature, switch to the Ruler mode at the top of the 3D editor, hold down <kbd><kbd>Shift</kbd></kbd>, then press and hold the left mouse button to draw a line. When <kbd><kbd>Shift</kbd></kbd> is held, individual vector components are displayed.
+    To make use of this feature, switch to the Ruler mode at the top of the 3D editor, hold down <kbd><kbd>Shift</kbd></kbd>, then press and hold the left mouse button to draw a line. While <kbd><kbd>Shift</kbd></kbd> is held, the lengths of individual vector components are displayed.
   read_more: "https://github.com/godotengine/godot/pull/106785"
   contributors:
     - name: "Robert Yevdokimov"
@@ -483,7 +483,7 @@ clearcoat_update:
 #   poster: android_native_file_picker_poster.webp
 wayland_touch_support:
   title: "Initial touch support for Wayland"
-  subtitle: "U Can~~’t~~ Touch This"
+  subtitle: "U Can~~’t~~ Touch This."
   text: |
     While touch support was available on Linux/*BSD using [X11](https://en.wikipedia.org/wiki/X_Window_System), it wasn’t the case when using the newer [Wayland protocol](https://en.wikipedia.org/wiki/Wayland_(protocol)) introduced in [4.3](https://godotengine.org/releases/4.3/#display-wayland-support). Well, until now.
 
@@ -543,7 +543,7 @@ property_list_helper_documentation:
   title: "Dynamically generated properties, such as menu items, are now documented"
   subtitle: "Where no one has gone before."
   text: |
-    Dynamic properties generated by [`PropertyListHelper`](), like menu items, are now automatically documented. Before, property arrays wouldn’t show descriptions when hovered over in the inspector. In Godot 4.7, documentation for properties are automatically generated and viewable when hovered.
+    Dynamic properties generated by [`PropertyListHelper`](), like menu items, are now automatically documented. Before, property arrays wouldn’t show descriptions when hovered over in the inspector. In Godot 4.7, documentation for properties is automatically generated and viewable when hovered.
   read_more: "https://github.com/godotengine/godot/pull/115253"
   contributors:
     - name: "bruvzg"
@@ -600,9 +600,9 @@ ios_sdl3:
   title: "Better controller support on iOS"
   subtitle: "A true controller know-it-all."
   text: |
-    One of Godot’s strengths is cross-platform controller support. However, given the large number of controllers out there, issues with incorrect mappings or non-working functionality inevitably crop up. So far, the best way to improve controller reliability has been to switch to [SDL3 library](https://www.libsdl.org/) for input, as done on Windows, macOS, and Linux already.
+    One of Godot’s strengths is cross-platform controller support. However, given the large number of controllers out there, issues with incorrect mappings or non-working functionality inevitably crop up. So far, the best way to improve controller reliability has been to switch to the battle-tested [SDL3 library](https://www.libsdl.org/) for input, as done on Windows, macOS, and Linux already.
 
-    By switching to the battle-tested [SDL3 library](https://wiki.libsdl.org/SDL3/FrontPage) on iOS, this fixes several issues related to controllers not being recognized properly on that platform.
+    Godot 4.7 now uses SDL3 on iOS too, fixing several issues related to controllers not being recognized properly on that platform.
   read_more: "https://github.com/godotengine/godot/pull/114316"
   contributors:
     - name: "Nintorch"
@@ -610,7 +610,7 @@ ios_sdl3:
   media: ios_sdl3.webp
 joypad_motion_sensors:
   title: "Add gyro aiming support to your project!"
-  subtitle: "Aim for the open spot!"
+  subtitle: "Aim for the weak spot!"
   text: |
     This long-awaited feature makes it possible to read accelerometer and gyroscope inputs from controllers that feature the necessary hardware. This allows for the implementation of *gyro aiming* in Godot projects, which makes for responsive yet smooth aiming by tilting the controller.
   read_more: "https://github.com/godotengine/godot/pull/111679"
@@ -622,7 +622,7 @@ accessibility_region:
   title: "Landmark navigation for enhanced accessibility"
   subtitle: "You are here. 👇"
   text: |
-    A new feature has been introduced in order to make the engine more accessible to both editor and end users.
+    A new feature has been introduced in order to make the engine more accessible.
 
     The focused element of a user interface can frequently move in arbitrary ways. While we introduced screen reader support in 4.5, it lacked the ability to give context in some cases. While a line input could be set to describe a “name” field, it doesn’t help if you don’t know what it named.
 
@@ -640,7 +640,7 @@ pass_unique_buffer:
 
     Modern rendering uses what we call “passes” in order to create final images that are shown on your screen. These are essentially processes that end up with a painted canvas. Some passes can draw the scene objects, while others can read the output of previous passes in order to apply some post-processing effects.
 
-    We figured out that by giving each pass their own unique environment uniform memory pool, we could speed up the rendering process. It’s all because sharing the same memory pool across passes added copy dependencies that often bottlenecked the whole process. As GPUs are meant to multiple tasks in parallel, it checks out.
+    We figured out that by giving each pass their own unique environment uniform memory pool, we could speed up the rendering process. It’s all because sharing the same memory pool across passes added copy dependencies that often bottlenecked the whole process. As GPUs are meant to do multiple tasks in parallel, it checks out.
   read_more: "https://github.com/godotengine/godot/pull/115177"
   contributors:
     - name: "Skyth"
@@ -679,7 +679,7 @@ navigate_to_script:
   poster: navigate_to_script.webp
 conic_gradient:
   title: "`GradientTexture2D` now able to generate conic gradients"
-  subtitle: "POV: You just drew the Wheel of Fortune card"
+  subtitle: "POV: You just drew the Wheel of Fortune card."
   text: |
     [`FILL_CONIC`](https://docs.godotengine.org/en/4.7/classes/class_gradienttexture2d.html#class-gradienttexture2d-constant-fill-conic) was newly added to [`GradientTexture2D`](https://docs.godotengine.org/en/4.7/classes/class_gradienttexture2d.html), enabling the use of CSS-style effects. This is particularly useful in custom 2D shaders to simulate surfaces with realistic 3D-like shading.
   read_more: "https://github.com/godotengine/godot/pull/115394"
@@ -743,7 +743,7 @@ view_3d_controller:
 # media: gradle_plugin.webp
 csg_smoothing:
   title: "Automatic smoothing option for CSG nodes"
-  subtitle: "You’ve been hit by… a smooth Cs’G node"
+  subtitle: "You’ve been hit by… a smooth Cs’G node."
   text: |
     When creating geometry with CSG nodes, it inherits the smooth/sharp faces from the original mesh data. This is not always suitable, as it can lead to curves being made of sharp faces depending on how they were constructed using CSG nodes.
 
@@ -795,7 +795,7 @@ script_editor_orientation_change:
       link: "https://github.com/syntaxerror247"
 perfetto_tracing:
   title: "Making tracing easier with Perfetto"
-  subtitle: "I want to know everything there is to know about Spider-Android!!"
+  subtitle: "I want to know everything there is to know about Spider-Android!"
   text: |
     In Godot 4.7, we are making Perfetto the default tracing tool for Android editor and template builds.
 
