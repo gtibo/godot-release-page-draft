@@ -27,7 +27,7 @@ hdr_support:
     before_text: SDR
     after_text: HDR
 drawable_textures:
-  title: "Drawing on a texture never been this easy"
+  title: "Drawing on a texture has never been this easy"
   subtitle: "There are no mistakes here, only happy accidents."
   text: |
     After a long wait, we’re excited to share that it’s now possible to easily draw on a texture! 
