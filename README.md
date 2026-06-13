@@ -1,3 +1,8 @@
+# IMPORTANT
+
+Project moved to a godot-website fork :)
+https://github.com/gtibo/godot-website-release-page/tree/release-4.7
+
 # Godot Release Page Draft
 
 ### Preview
