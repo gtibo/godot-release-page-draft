@@ -4,22 +4,6 @@
 
 View the [current build](https://gtibo.github.io/godot-release-page-draft/).
 
-### Todo
-
-- [x] Better banner
-- [x] Improve the navigation bar (show current section and subsections)
-- [x] Standardize author names on cards
-- [x] Autoplay videos with Intersection Observer + better UX
-- [x] Don't capitalize usernames in the list of contributors at the bottom
-- [x] Add contributors' names to the contributors' wall
-- [x] Add image comparison component
-- [x] Add Share image
-- [ ] Update the quote at the bottom of the page
-- [x] Page credits section
-- [x] Fix 3D banner mouse event on mobile
-- [ ] Godot mascot on each section
-- [ ] Use the new theme for all media
-
 ### Instructions
 
 This project is using [Jekyll](https://jekyllrb.com/)

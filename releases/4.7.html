@@ -104,9 +104,9 @@ draft: true
         <section class="section-body">
 
             <!-- Highlights Cards -->
+            {% include_relative _components/card.html name="rect_area_light" size="large" %}
             
             <div class="sub-grid">
-                {% include_relative _components/card.html name="rect_area_light" order="reverse" %}
                 {% include_relative _components/card.html name="hdr_support" %}
             </div>
 
@@ -194,15 +194,17 @@ draft: true
             {% include_relative _components/card.html name="follow_selection" size="medium" %}
 
             <div class="sub-grid">
-                {% include_relative _components/card.html name="nearest_neighbor_scaling" %}
+                {% include_relative _components/card.html name="nearest_neighbor_scaling" order="reverse" %}
     
                 {% include_relative _components/card.html name="copy_past_properties" %}
-    
-                {% include_relative _components/card.html name="mesh_library_update" %}
-
-                {% include_relative _components/card.html name="remote_scene_inspector_groups_folding" order="reverse"%}
             </div>
 
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="remote_scene_inspector_groups_folding" order="reverse" %}
+                
+                {% include_relative _components/card.html name="mesh_library_update" %}
+            </div>
+            
             {% include_relative _components/card.html name="scene_painter_tool" size="medium" %}
 
 
